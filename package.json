@@ -1,0 +1,21 @@
+{
+  "name": "php",
+  "version": "1.0.0",
+  "description": "personal hobby project",
+  "main": "app.js",
+  "scripts": {
+    "start":"nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "music",
+    "songs",
+    "express"
+  ],
+  "author": "Esther",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.0.8"
+  }
+}

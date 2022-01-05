@@ -1,0 +1,6 @@
+<H1>{{vm.title}}</H1>
+<ul>
+    <li ng-repeat="song in vm.songs | orderBy: 'title'">
+        <a ng-href="#!/song/{{song._id}}">{{song.title}}</a>
+    </li>
+</ul>

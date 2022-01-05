@@ -1,0 +1,9 @@
+<H1>DETAILS OF SONG: {{vm.song.title}}</H1>
+<ul>
+    <li> Artists:
+        <ul ng-repeat="artist in vm.song.artists">
+            <li>{{artist}}</li>
+        </ul>
+    <li>Released Year: {{vm.song.year}}</li>
+    <li>Producer: {{vm.producer.name}}</li>
+</ul>
